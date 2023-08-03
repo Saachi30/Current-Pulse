@@ -3,7 +3,7 @@ import "./App.css";
 import Navbar from "./components/Navbar"
 import Home from "./components/pages/Home"
 import Data from "./components/Data"
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import Footer from "./components/Footer";
 
 
@@ -13,7 +13,7 @@ function App() {
       <Router>
         <Navbar />
         <Routes>
-          <Route exact path="/Current-Pulse" element={<Home />} />
+          <Route exact path="/" element={<Home />} />
           <Route path="/business" element={<Data val="business" />} />
           <Route path="/entertainment" element={<Data val="entertainment" />} />
           <Route path="/sports" element={<Data val="sports" />} />
