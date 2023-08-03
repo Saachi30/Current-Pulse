@@ -13,13 +13,13 @@ function App() {
       <Router>
         <Navbar />
         <Routes>
-          <Route exact path="/current-pulse" element={<Home />} />
-          <Route path="/current-pulse/business" element={<Data val="business" />} />
-          <Route path="/current-pulse/entertainment" element={<Data val="entertainment" />} />
-          <Route path="/current-pulse/sports" element={<Data val="sports" />} />
-          <Route path="/current-pulse/health" element={<Data val="health" />} />
-          <Route path="/current-pulse/science" element={<Data val="science" />} />
-          <Route path="/current-pulse/technology" element={<Data val="technology" />} />
+          <Route exact path="/Current-Pulse" element={<Home />} />
+          <Route path="/Current-Pulse/business" element={<Data val="business" />} />
+          <Route path="/Current-Pulse/entertainment" element={<Data val="entertainment" />} />
+          <Route path="/Current-Pulse/sports" element={<Data val="sports" />} />
+          <Route path="/Current-Pulse/health" element={<Data val="health" />} />
+          <Route path="/Current-Pulse/science" element={<Data val="science" />} />
+          <Route path="/Current-Pulse/technology" element={<Data val="technology" />} />
         </Routes>
       </Router>
       <Footer></Footer>
