@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/current-pulse/static/css/main.a573c58d.css",
+    "main.css": "/current-pulse/static/css/main.9974a46f.css",
     "main.js": "/current-pulse/static/js/main.b6220882.js",
     "static/js/787.4c026eef.chunk.js": "/current-pulse/static/js/787.4c026eef.chunk.js",
     "static/media/logo.png": "/current-pulse/static/media/logo.8fa99952d17b558351bf.png",
     "index.html": "/current-pulse/index.html",
-    "main.a573c58d.css.map": "/current-pulse/static/css/main.a573c58d.css.map",
+    "main.9974a46f.css.map": "/current-pulse/static/css/main.9974a46f.css.map",
     "main.b6220882.js.map": "/current-pulse/static/js/main.b6220882.js.map",
     "787.4c026eef.chunk.js.map": "/current-pulse/static/js/787.4c026eef.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a573c58d.css",
+    "static/css/main.9974a46f.css",
     "static/js/main.b6220882.js"
   ]
 }
