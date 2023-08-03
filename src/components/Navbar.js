@@ -14,25 +14,25 @@ function Navbar() {
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav ms-auto me-10 mb-lg-2">
                         <li>
-                            <NavLink className="nav-link nav-item" aria-current="page" to="/">Home</NavLink>
+                            <NavLink className="nav-link nav-item" aria-current="page" to="/current-pulse">Home</NavLink>
                         </li>
                         <li>
-                            <NavLink className="nav-link nav-item" to="/business">Business</NavLink>
+                            <NavLink className="nav-link nav-item" to="/current-pulse/business">Business</NavLink>
                         </li>
                         <li>
-                            <NavLink className="nav-link nav-item" to="/entertainment">Entertainment</NavLink>
+                            <NavLink className="nav-link nav-item" to="/current-pulse/entertainment">Entertainment</NavLink>
                         </li>
                         <li>
-                            <NavLink className="nav-link nav-item" to="/sports">Sports</NavLink>
+                            <NavLink className="nav-link nav-item" to="/current-pulse/sports">Sports</NavLink>
                         </li>
                         <li>
-                            <NavLink className="nav-link nav-item" to="/health">Health</NavLink>
+                            <NavLink className="nav-link nav-item" to="/current-pulse/health">Health</NavLink>
                         </li>
                         <li>
-                            <NavLink className="nav-link nav-item" to="/science">Science</NavLink>
+                            <NavLink className="nav-link nav-item" to="/current-pulse/science">Science</NavLink>
                         </li>
                         <li>
-                            <NavLink className="nav-link nav-item" to="/technology">Technology</NavLink>
+                            <NavLink className="nav-link nav-item" to="/current-pulse/technology">Technology</NavLink>
                         </li>
                         
                      
