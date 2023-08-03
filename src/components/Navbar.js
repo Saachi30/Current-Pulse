@@ -14,7 +14,7 @@ function Navbar() {
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav ms-auto me-10 mb-lg-2">
                         <li>
-                            <NavLink className="nav-link nav-item" aria-current="page" to="/">Home</NavLink>
+                            <NavLink className="nav-link nav-item" aria-current="page" to="/Current-Pulse">Home</NavLink>
                         </li>
                         <li>
                             <NavLink className="nav-link nav-item" to="/business">Business</NavLink>
