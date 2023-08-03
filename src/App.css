@@ -1,38 +1,180 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Handjet:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin:0px;
+    padding:0px;
+  
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.textHead{
+    
+    opacity: 100;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.container-box{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    row-gap: 20px;
+    
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.column{
+    flex-basis: 25%;
+
+}
+.nav-item{
+    color: white;
+    margin: 0px 7px;
+    /* font-family: 'Handjet', cursive; */
+}
+.nav-item:hover{
+    transform: scale(1.07);
+    /* text-decoration: underline white; */
+    color: red;
+   
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.carouselText{
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.carouselText p{
+    font-size: 20px;
+    font-weight: 300;
+}
+.carouselText h1{
+    font-size: 60px;
+    font-weight: 500;
+    
+}
+.carouselTextcontainer{
+    
+   position: absolute;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+}
+.carouselContainer{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+   
+}
+.carousel-item{
+    width: 100vw;
+    height: 65vh;
+    position: relative;
+    background-color: black;
+    isolation: isolate;
+}
+#carousel1::after{
+    content: "";
+    background-image: url("https://images.unsplash.com/photo-1557428894-56bcc97113fe?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=500&ixid=MnwxfDB8MXxyYW5kb218MHx8bmV3c3x8fHx8fDE2OTA5OTc1MTM&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1600");
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+   inset: 0;
+    opacity: 0.4;
+}
+#carousel2::after{
+    content: "";
+    background-image: url("https://images.unsplash.com/photo-1497015289639-54688650d173?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=500&ixid=MnwxfDB8MXxyYW5kb218MHx8bmV3c3x8fHx8fDE2ODk2NjQ2Mzc&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1600");
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    inset: 0;
+    opacity: 0.4;
+}
+#carousel3::after{
+    content: "";
+    background-image: url("https://images.unsplash.com/photo-1579532537598-459ecdaf39cc?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=500&ixid=MnwxfDB8MXxyYW5kb218MHx8bmV3c3BhcGVyfHx8fHx8MTY4OTY2Mjg4OQ&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1600");
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    inset: 0;
+    opacity: 0.4;
 }
 
-.App-link {
-  color: #61dafb;
+.logo-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 260px;
+    height: 40px;
+}
+.logo-img{
+    height: auto;
+    width: 35px;
+    margin: 2px 5px;
+    filter: invert(100%);
+}
+.logo-text{
+    font-family: 'Handjet', cursive;
+    font-size: 28px;
+}
+#favicon{
+    filter: invert(100%);
+}
+h3{
+    font-family: 'Poppins', sans-serif;
+}
+.card{
+    width: 18rem;
+    max-height: 450px;
+    min-height: 450px;
+    margin: 12px;
+    display: flex;
+    align-items: center;
+    border: 2px solid green;
+    box-shadow: 5px solid grey;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.card-img-top{
+    margin: 10px 10px;
+    width: auto;
+    max-width: 16.5rem;
+    height: auto;
+    max-height: 150px;
+}
+.card-text{
+    margin: 5px 4px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.card-body{
+    max-height: 250px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.view-more{
+    width: 16rem;
+    display: flex;
+    margin-bottom: 10px;
+    margin-left: 8px;
+    align-items: center;
+}
+a.active{
+    color: red !important;
+}
+.footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 25px;
+    width: 100%;
+    margin-top: 7px
 }
