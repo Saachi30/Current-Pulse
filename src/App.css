@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Handjet:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
 *{
     margin:0px;
     padding:0px;
@@ -33,6 +34,7 @@
     color: white;
     margin: 0px 7px;
     /* font-family: 'Handjet', cursive; */
+    font-family: 'Roboto Mono', monospace;
 }
 .nav-item:hover{
     transform: scale(1.07);
@@ -42,7 +44,7 @@
 }
 
 .carouselText{
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto Mono', monospace;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -97,7 +99,7 @@
     background-size: cover;
     position: absolute;
     inset: 0;
-    opacity: 0.4;
+    opacity: 0.3;
 }
 #carousel3::after{
     content: "";
@@ -106,7 +108,7 @@
     background-size: cover;
     position: absolute;
     inset: 0;
-    opacity: 0.4;
+    opacity: 0.3;
 }
 
 .logo-container{
@@ -127,7 +129,8 @@
     font-size: 28px;
 }
 #favicon{
-    filter: invert(100%);
+    width: auto;
+    height: auto;
 }
 h3{
     font-family: 'Poppins', sans-serif;
@@ -174,7 +177,7 @@ a.active{
     background-color: black;
     color: red;
     text-align: center;
-    height: 25px;
+    height: 30px;
     width: 100%;
     margin-top: 7px
 }

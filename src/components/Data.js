@@ -8,7 +8,12 @@ function Data(props){
     props.val?baseURL=`https://newsapi.org/v2/top-headlines?country=in&category=${props.val}&apiKey=583a0a80147c44689c5b4f0d6771246e`:baseURL=`https://newsapi.org/v2/top-headlines?country=in&apiKey=583a0a80147c44689c5b4f0d6771246e`;
     const [data, setData]=React.useState([]);
     const fetchData=async()=>{
+        try{
         await axios.get(baseURL).then((res)=>{setData(res.data.articles)});
+        }
+        catch(error){
+            console.log(error.response.data);
+        }
     };
 
     useEffect(()=>{
