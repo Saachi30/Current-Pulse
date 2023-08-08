@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/Current-Pulse/static/css/main.9974a46f.css",
-    "main.js": "/Current-Pulse/static/js/main.68ce57a6.js",
-    "static/js/787.4c026eef.chunk.js": "/Current-Pulse/static/js/787.4c026eef.chunk.js",
-    "static/media/logo.png": "/Current-Pulse/static/media/logo.8fa99952d17b558351bf.png",
-    "index.html": "/Current-Pulse/index.html",
-    "main.9974a46f.css.map": "/Current-Pulse/static/css/main.9974a46f.css.map",
-    "main.68ce57a6.js.map": "/Current-Pulse/static/js/main.68ce57a6.js.map",
-    "787.4c026eef.chunk.js.map": "/Current-Pulse/static/js/787.4c026eef.chunk.js.map"
+    "main.css": "/Current-Pulse-test/static/css/main.87fb2d7f.css",
+    "main.js": "/Current-Pulse-test/static/js/main.f7f1d849.js",
+    "static/js/787.4c026eef.chunk.js": "/Current-Pulse-test/static/js/787.4c026eef.chunk.js",
+    "static/media/logo.png": "/Current-Pulse-test/static/media/logo.8fa99952d17b558351bf.png",
+    "index.html": "/Current-Pulse-test/index.html",
+    "main.87fb2d7f.css.map": "/Current-Pulse-test/static/css/main.87fb2d7f.css.map",
+    "main.f7f1d849.js.map": "/Current-Pulse-test/static/js/main.f7f1d849.js.map",
+    "787.4c026eef.chunk.js.map": "/Current-Pulse-test/static/js/787.4c026eef.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9974a46f.css",
-    "static/js/main.68ce57a6.js"
+    "static/css/main.87fb2d7f.css",
+    "static/js/main.f7f1d849.js"
   ]
 }
